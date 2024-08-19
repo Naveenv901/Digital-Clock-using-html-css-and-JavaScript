@@ -1,0 +1,24 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: linear-gradient(135deg, #1e3c72, #2a5298); /* Background gradient */
+    color: #fff; /* White text color for contrast */
+    font-family: 'Digital-7', sans-serif;
+}
+
+.clock {
+    text-align: center;
+    background: linear-gradient(135deg, #333, #555); /* Gradient for clock background */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(249, 12, 12, 0.466);
+}
+
+.time {
+    font-size: 5em;
+    letter-spacing: 0.1em;
+    font-weight: bold;
+}
